@@ -6,7 +6,7 @@ class Flick < Formula
   desc "Menu bar app and CLI to toggle services via global hotkeys"
   homepage "https://github.com/ekinertac/flick"
   url "https://github.com/ekinertac/flick/archive/refs/tags/v1.0.0.tar.gz"
-  sha256 "a6d6d4471990cbd5bf307dfcb13cadca5b42df29044bed7975fdf73d40fc272e"
+  sha256 "92a2754f829d3b9d6c4dde4706d31a5116d7a0976371cb085a55d8a9f9007892"
   license "MIT"
 
   depends_on :macos

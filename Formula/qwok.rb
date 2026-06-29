@@ -5,8 +5,8 @@
 class Qwok < Formula
   desc "Run your local dev apps by name (pm2-style, over portless)"
   homepage "https://github.com/ekinertac/qwok"
-  url "https://github.com/ekinertac/qwok/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "5697cff4bb357d8aca9ad14fb955b1408683a4b99d8ee77a1ac5d7cf42f9c26f"
+  url "https://github.com/ekinertac/qwok/archive/refs/tags/v0.2.0.tar.gz"
+  sha256 "b7f5a8c4284c5128adc887c8ca4774934ca354e0a0925aa92e15c7715be5e9f4"
   license "MIT"
 
   depends_on "go" => :build

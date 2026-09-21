@@ -4,7 +4,7 @@ class Hue < Formula
   desc "Control Philips Hue lights from the command line"
   homepage "https://github.com/ekinertac/philips-hue-cli"
   url "https://github.com/ekinertac/philips-hue-cli/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
+  sha256 "e5ab9cc147cc877a2053caf6877758473408f9e8dce42efdd21a062714fddb5d"
   license "MIT"
 
   depends_on "python@3.13"

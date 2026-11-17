@@ -11,8 +11,8 @@
 # `ift`, the command line side, ships inside the bundle and is linked onto
 # the PATH here; `ift install` does the same by hand for DMG installs.
 cask "infiniterm" do
-  version "0.6.16,1718"
-  sha256 "7e55560c0c0720e0970727a2905bd25d1ac8015e12b9a0db9d6f2cae41315e08"
+  version "0.6.17,1753"
+  sha256 "1d1961b109b4101bb424b623948e59a3574d6af1166d9b13bfca62b39e9dc357"
 
   url "https://github.com/ekinertac/infiniterm/releases/download/v#{version.csv.first}/infiniterm-#{version.csv.first}-#{version.csv.second}-arm64.dmg"
   name "infiniterm"

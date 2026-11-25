@@ -6,8 +6,8 @@
 # would block the first launch. Distributed as a cask (prebuilt .app) rather
 # than a build-from-source formula because a signed release DMG already exists.
 cask "walter" do
-  version "1.8.0"
-  sha256 "f75dc49b31a7668b919e4e97b343cf4c5d9f23a17535e426357a33169612cde8"
+  version "1.9.0"
+  sha256 "73ea87f26be680055ee7db5d07679038b11264fc22cded188e43993013849097"
 
   url "https://github.com/ekinertac/walter/releases/download/v#{version}/Walter-#{version}.dmg"
   name "Walter"

@@ -1,10 +1,11 @@
 # Homebrew cask for Walter — a native macOS keyboard-first launcher.
 #
-# Walter ships a signed (Developer ID) DMG on each GitHub release. The app is
-# code-signed but not currently notarized, so the postflight strips the
-# quarantine attribute Homebrew applies on download; without it Gatekeeper
-# would block the first launch. Distributed as a cask (prebuilt .app) rather
-# than a build-from-source formula because a signed release DMG already exists.
+# Walter ships a signed (Developer ID) DMG on each GitHub release. The app
+# inside is notarized and stapled as of 1.9.0. 1.8.0 was signed only, and
+# Gatekeeper blocked its first launch, so the postflight strips the quarantine
+# attribute Homebrew applies on download. It stays as a safeguard for a release
+# that is not notarized. Distributed as a cask (prebuilt .app) rather than a
+# build-from-source formula because a signed release DMG already exists.
 cask "walter" do
   version "1.9.0"
   sha256 "73ea87f26be680055ee7db5d07679038b11264fc22cded188e43993013849097"
